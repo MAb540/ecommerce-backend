@@ -1,8 +1,8 @@
 import { Column, Entity, PrimaryColumn } from 'typeorm';
 import { BaseEntity } from './base.entity';
 
-@Entity('User')
-export class User extends BaseEntity {
+@Entity('users')
+export class UserEntity extends BaseEntity {
   @PrimaryColumn('uuid')
   id: string;
 
@@ -17,4 +17,7 @@ export class User extends BaseEntity {
 
   @Column({ type: 'varchar', length: 125, unique: true })
   email: string;
+
+  @Column({ type: 'smallint', default: 1 })
+  role: number;
 }

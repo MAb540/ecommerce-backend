@@ -26,6 +26,7 @@
 
 This repository is a utility to explore logging in nest js. Two nest logging packages are used in this repo to explore different ways
 of logging.
+
 1. nest-winston
 2. nest-winston-logger
 
@@ -50,7 +51,36 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Some help full links to explore fusion auth
+
+# to configure fusion auth docker container
+
+https://fusionauth.io/docs/v1/tech/installation-guide/docker#configuration
+
+# to setup fusion auth guide
+
+https://fusionauth.io/docs/v1/tech/5-minute-setup-guide
+
+# fusion auth setup wizard guide
+
+https://fusionauth.io/docs/v1/tech/tutorials/setup-wizard
+
+# fusion auth api key guide
+
+https://fusionauth.io/docs/v1/tech/apis/authentication
+
+# fusion auth typescript client
+
+https://fusionauth.io/docs/v1/tech/client-libraries/typescript
+
+# for custom user registeration form
+
+https://fusionauth.io/blog/2020/08/27/advanced-registration-form
+
+# for access and refresh tokens apis
+
+https://fusionauth.io/docs/v1/tech/apis/jwt#retrieve-refresh-tokens
